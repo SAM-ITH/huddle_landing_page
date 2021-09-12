@@ -1,4 +1,25 @@
-body {
-    font-size: 100%;
-    
-}
+*, *:before, *:after {
+    box-sizing: border-box;
+}   
+
+h1 {
+    position: relative;
+    font-family: $font-title;
+    font-size: 34px;
+    line-height: 1;
+    padding-left: 50px;
+
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 50px;
+        height: 32px;
+        background-image: url('/img/logo.svg');
+        background-size: 200px;
+        background-position: left center;
+        background-repeat: no-repeat;
+
+    }
+
+} 

@@ -1,0 +1,16 @@
+body {
+    padding: 70px 40px 70px 40px;
+    background-color: #674bb1;
+    background-image: url('/img/bg-mobile.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+
+    // meida queries for resoponsivie design 
+    @media screen and (min-width: 640px){
+        background-image: url('/img/bg-desktop.svg');
+        padding: 60px 80px 40px 80px;
+    }
+
+}
